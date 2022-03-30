@@ -14,7 +14,7 @@ export default function handler (req, res) {
 
 When you visit the `/api/time` endpoint with a query string like `?name=william&place=HongKong&product=Vercel&price=2000&message=1283024&format=json`, the `req.query` object and `req.url` object is returned.
 
-### Expected Result
+### Expected Behaviour
 Visit https://discussion-500-nextjs-query-string-order-test.vercel-support.app/api/time?name=william&place=HongKong&product=Vercel&price=2000&message=1283024&format=json and the following json _should_ be returned:
 
 ```
@@ -32,7 +32,7 @@ Visit https://discussion-500-nextjs-query-string-order-test.vercel-support.app/a
 }
 ```
 
-### Current Result
+### Current Behaviour
 
 ```
 {
